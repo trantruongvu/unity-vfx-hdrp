@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Trail_01_Add_Scroll
+  m_Name: Circle_01_Add_Scroll
   m_Shader: {fileID: -6465566751694194690, guid: 2622264be3bb9b345bf5314cfb20008b,
     type: 3}
   m_ShaderKeywords: 
@@ -23,7 +23,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_C996746B:
-        m_Texture: {fileID: 2800000, guid: 6cf7f280bc1dfb1438adb37c2f320ef3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 331e470e41fa0a143b5139bdac559563, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AnisotropyMap:
@@ -111,8 +111,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_FD1FAF49: 15
-    - Vector1_FD7544A9: 0.075
+    - Vector1_FD1FAF49: 10
+    - Vector1_FD7544A9: 0.1
     - _AORemapMax: 1
     - _AORemapMin: 0
     - _ATDistance: 1
@@ -234,9 +234,9 @@ Material:
     - _ZTestModeDistortion: 8
     - _ZWrite: 1
     m_Colors:
-    - Color_1D5804D8: {r: 5.992157, g: 5.992157, b: 5.992157, a: 1}
-    - Vector2_93ABE929: {r: -0.5, g: 0, b: 0, a: 0}
-    - Vector2_E3FAD22: {r: -0.5, g: 0, b: 0, a: 0}
+    - Color_1D5804D8: {r: 95.87451, g: 95.87451, b: 95.87451, a: 1}
+    - Vector2_93ABE929: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_E3FAD22: {r: 0.5, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
