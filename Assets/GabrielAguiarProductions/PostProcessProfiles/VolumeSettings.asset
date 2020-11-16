@@ -15,6 +15,7 @@ MonoBehaviour:
   components:
   - {fileID: 114527594671542966}
   - {fileID: 114339849572665496}
+  - {fileID: 114914201461855468}
   - {fileID: 114698408567805600}
   - {fileID: 617365763601477730}
 --- !u!114 &114339849572665496
@@ -58,11 +59,6 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 700
     min: 0
-  directionalTransmissionMultiplier:
-    m_OverrideState: 0
-    m_Value: 1
-    min: 0
-    max: 1
   cascadeShadowSplitCount:
     m_OverrideState: 1
     m_Value: 4
@@ -111,12 +107,6 @@ MonoBehaviour:
     m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     hdr: 0
     showAlpha: 1
-    showEyeDropper: 1
-  tint:
-    m_OverrideState: 0
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
-    hdr: 1
-    showAlpha: 0
     showEyeDropper: 1
   density:
     m_OverrideState: 1
@@ -185,9 +175,6 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
     min: 0
-  upperHemisphereLuxColor:
-    m_OverrideState: 0
-    m_Value: {x: 0, y: 0, z: 0}
   desiredLuxValue:
     m_OverrideState: 0
     m_Value: 20000
@@ -245,16 +232,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   m_AdvancedMode: 0
-  quality:
-    m_OverrideState: 0
-    m_Value: 1
-  threshold:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.4
+    m_Value: 0.2
     min: 0
     max: 1
   scatter:
@@ -275,12 +255,15 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
     min: 0
-  anamorphic:
+  highQualityFiltering:
     m_OverrideState: 0
     m_Value: 1
-  m_Resolution:
+  resolution:
     m_OverrideState: 0
     m_Value: 2
-  m_HighQualityFiltering:
+  prefilter:
+    m_OverrideState: 0
+    m_Value: 0
+  anamorphic:
     m_OverrideState: 0
     m_Value: 1
