@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat Cold Smoke
+  m_Shader: {fileID: 203, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_45BF0B4C:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 3aa7ec8b4625371469a814b27d8259e9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_2F4E4106: 0
+    - Vector1_33500DA5: 3
+    - Vector1_3ED09A95: 1
+    - Vector1_7A88B3C8: 4
+    - Vector1_AA743BFA: 5.5
+    - Vector1_D39FAD29: 3
+    - Vector1_DAAF0183: 0
+    - Vector1_E77C891: 25
+    - _InvFade: 2.5
+    m_Colors:
+    - Color_5230863: {r: 0, g: 0, b: 0, a: 0}
+    - Color_A01B0C73: {r: 191.74902, g: 33.129414, b: 0, a: 0}
+    - Color_BDD78610: {r: 191.74902, g: 0, b: 0, a: 0}
+    - Vector2_7D49A4B1: {r: -0.1, g: 0.1, b: 0, a: 0}
+    - Vector2_83171AEB: {r: 0.1, g: 0.5, b: 0, a: 0}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 0.19607843}
